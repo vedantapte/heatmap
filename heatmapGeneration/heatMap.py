@@ -68,9 +68,9 @@ def generateHeatMap(file, showPoints, colorScheme):
     plt.show()
 
 
-# generateCoordinatePointsFile()
+generateCoordinatePointsFile()
 generateHeatMap(
-    file = './attackingMid.txt',
+    file = './coordinates.txt',
     showPoints = False,
     colorScheme = "viridis"
 )
